@@ -41,6 +41,33 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+   		 <groupId>org.apache.shiro</groupId>
+    	 <artifactId>shiro-all</artifactId>
+    	 <version>1.2.3</version>
+         </dependency>
+         	<!--引入quartz依赖-->
+        <dependency>
+            <groupId>org.quartz-scheduler</groupId>
+            <artifactId>quartz</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.quartz-scheduler</groupId>
+            <artifactId>quartz-jobs</artifactId>
+        </dependency>
+	<dependency>  
+	    <groupId>com.alibaba</groupId>  
+	    <artifactId>fastjson</artifactId>  
+	    <version>1.2.41</version>  
+	</dependency>  
+	        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+         </dependency>
+         <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+         </dependency>
 	</dependencies>
 
 	<build>
